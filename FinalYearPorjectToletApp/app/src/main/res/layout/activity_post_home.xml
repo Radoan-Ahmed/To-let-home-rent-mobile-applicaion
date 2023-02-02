@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".PostHome">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            >
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/menu_drop"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:boxBackgroundColor="@color/white"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="5dp"
+                android:hint="Select Property Type">
+
+                <AutoCompleteTextView
+                    android:id="@+id/drop_items"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="none"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Price"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:id="@+id/price"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/bedroom_menu_drop"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:boxBackgroundColor="@color/white"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:hint="Select BedRooms">
+
+                <AutoCompleteTextView
+                    android:id="@+id/bedroom_drop_items"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="none"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/bathroom_menu_drop"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:boxBackgroundColor="@color/white"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:hint="Select BathRooms">
+
+                <AutoCompleteTextView
+                    android:id="@+id/bathroom_drop_items"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="none"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/kitchenroom_menu_drop"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:boxBackgroundColor="@color/white"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:hint="Select kitchenRooms">
+
+                <AutoCompleteTextView
+                    android:id="@+id/kitchenroom_drop_items"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="none"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Division"
+                android:textColor="@color/nav_gray"
+                android:textSize="14sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner_bangla_division"
+                android:layout_marginBottom="15dp"
+                >
+            </Spinner>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="District"
+                android:textColor="@color/nav_gray"
+                android:textSize="14sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner_bangla_district"
+                android:layout_marginBottom="15dp"
+                >
+
+            </Spinner>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Area"
+                android:textColor="@color/nav_gray"
+                android:textSize="14sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner_bangla_area"
+                android:layout_marginBottom="15dp"
+                >
+
+            </Spinner>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Address"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="15dp"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:id="@+id/locationView"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <TextView
+                android:id="@+id/camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="5dp"
+                android:drawableRight="@drawable/ic_baseline_photo_camera_24"
+                android:text="Select picture"
+                android:textColor="#1A1E25"
+                android:textSize="18sp" />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:orientation="horizontal"
+                android:id="@+id/image_recyclerview"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="set location"
+                    android:gravity="right"
+                    android:width="1dp"
+                    android:textSize="18sp"
+                    android:id="@+id/setLocation"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#ED0909"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="300dp"
+               android:id="@+id/linearLayout"
+               android:orientation="vertical"
+               >
+
+               <fragment
+                   android:id="@+id/googleMap"
+                   android:name="com.google.android.gms.maps.SupportMapFragment"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   tools:context=".MapsActivity" />
+
+           </LinearLayout>
+
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/login_bt"
+                android:text="submit"
+                android:layout_marginBottom="25dp"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

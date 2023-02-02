@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/drawable/bg_recever.xml" value="0.117" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/drawable/bg_sender.xml" value="0.117" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/drawable/black_bt.xml" value="0.117" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/drawable/border_bt.xml" value="0.1285" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/drawable/circle_border.xml" value="0.1265" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/drawable/color_gradient.xml" value="0.1285" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/drawable/ic_back_arrow.xml" value="0.1325" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.1265" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1325" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.1325" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/drawable/ic_baseline_video_call_24.xml" value="0.1265" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/drawable/ic_delete_24.xml" value="0.117" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/drawable/ic_kitchen.xml" value="0.121" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/drawable/ic_vector_save.xml" value="0.117" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/drawable/login_bt.xml" value="0.1265" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/drawable/role_background.xml" value="0.1265" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/drawable/role_background_gray.xml" value="0.1325" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/drawable/role_background_white.xml" value="0.1265" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/drawable/signup_bt.xml" value="0.1215" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/layout/activity_chat.xml" value="0.22" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/layout/activity_confirm_image.xml" value="0.20416666666666666" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/layout/activity_demo.xml" value="0.20416666666666666" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/layout/activity_demo_page.xml" value="0.20416666666666666" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/layout/activity_forget_password.xml" value="0.20416666666666666" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/layout/activity_home_page.xml" value="0.20416666666666666" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/layout/activity_map_location.xml" value="0.20416666666666666" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/layout/activity_maps.xml" value="0.20416666666666666" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/layout/activity_messaging.xml" value="0.20416666666666666" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/layout/activity_my_post.xml" value="0.20416666666666666" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/layout/activity_new.xml" value="0.20416666666666666" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/layout/activity_personal_info.xml" value="0.20416666666666666" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/layout/activity_post_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/layout/activity_profile_page.xml" value="0.20416666666666666" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/layout/activity_property_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/layout/activity_save_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/layout/activity_search.xml" value="0.20416666666666666" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/layout/activity_search_result.xml" value="0.20416666666666666" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/layout/activity_signup.xml" value="0.20416666666666666" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/layout/activity_start_pages.xml" value="0.20416666666666666" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/layout/activity_video_call_outgoing.xml" value="0.20416666666666666" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/layout/activity_video_callin_comming.xml" value="0.20416666666666666" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/layout/bedroom_items_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/layout/demo_recyclerview.xml" value="0.20416666666666666" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/layout/fragment_map.xml" value="0.22" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/layout/get_image.xml" value="0.20416666666666666" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/layout/home_recyclerview.xml" value="0.22" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/layout/image_layout.xml" value="0.203125" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/layout/image_layout_recyclerview.xml" value="0.435546875" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/layout/items_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/layout/message_recyclerview.xml" value="0.20416666666666666" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/layout/mypost_recyclerview.xml" value="0.20416666666666666" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/layout/sample_recever.xml" value="0.20416666666666666" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/layout/sample_sender.xml" value="0.22" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/layout/savehome_recyclerview.xml" value="0.20416666666666666" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/layout/spinner_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/menu/bottom_nevigation.xml" value="0.20416666666666666" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/menu/menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/FinalYearPorjectToletApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1325" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

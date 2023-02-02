@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfilePage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_image"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_baseline_person_24" />
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="-10dp"
+                    app:civ_border_color="@color/black"
+                    android:src="@drawable/ic_baseline_edit_24" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/userName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="Lucy Bond"
+                android:textColor="#1A1E25"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/userEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:gravity="center"
+                android:text="lucy@gmail.com"
+                android:textColor="#7D7F88"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/personalDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="8dp"
+                android:drawablePadding="15dp"
+                android:drawableLeft="@drawable/ic_black_person"
+                android:drawableRight="@drawable/ic_back_arrow"
+                android:text="Personal Details"
+                android:textColor="#1A1E25"
+                android:textSize="16sp" />
+
+
+
+            <TextView
+                android:id="@+id/postHomeBt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:drawablePadding="15dp"
+                android:drawableLeft="@drawable/ic_baseline_add_home_24"
+                android:drawableRight="@drawable/ic_back_arrow"
+                android:text="Rent Your Property"
+                android:layout_marginBottom="8dp"
+                android:textColor="#1A1E25"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/myPost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:drawablePadding="15dp"
+                android:drawableLeft="@drawable/ic_vector_post"
+                android:drawableRight="@drawable/ic_back_arrow"
+                android:text="Your Post"
+                android:layout_marginBottom="8dp"
+                android:textColor="#1A1E25"
+                android:textSize="16sp" />
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/logout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:drawablePadding="15dp"
+                android:drawableLeft="@drawable/ic_baseline_logout_24"
+
+                android:text="Log out"
+                android:layout_marginBottom="8dp"
+                android:textColor="#1A1E25"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:labelVisibilityMode="labeled"
+            android:background="#FFFFFF"
+            app:menu="@menu/bottom_nevigation" />
+    </LinearLayout>
+
+</LinearLayout>
